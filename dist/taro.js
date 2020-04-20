@@ -3665,7 +3665,7 @@ initNativeApi(Taro);
 exports.Taro = Taro;
 exports.default = Taro;
 //# sourceMappingURL=index.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -6436,7 +6436,7 @@ exports.memo = memo;
 exports.getIsUsingDiff = getIsUsingDiff;
 exports.setIsUsingDiff = setIsUsingDiff;
 //# sourceMappingURL=index.esm.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ })
 

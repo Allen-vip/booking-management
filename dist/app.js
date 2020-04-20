@@ -490,7 +490,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     g.regeneratorRuntime = __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerator-runtime/runtime.js");
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -525,6 +525,8 @@ var _index = __webpack_require__(/*! ./models/index */ "./src/models/index.js");
 var _index2 = _interopRequireDefault(_index);
 
 var _redux = __webpack_require__(/*! @tarojs/redux */ "./node_modules/@tarojs/redux/index.js");
+
+__webpack_require__(/*! ./app.scss */ "./src/app.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -566,21 +568,21 @@ var _App = function (_BaseComponent) {
     }
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _App.__proto__ || Object.getPrototypeOf(_App)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
-      pages: ['pages/home/index'],
+      pages: ["pages/home/index"],
       window: {
-        backgroundTextStyle: 'dark',
-        navigationBarBackgroundColor: '#fff',
-        navigationBarTitleText: '首页',
-        navigationBarTextStyle: 'black'
+        backgroundTextStyle: "dark",
+        navigationBarBackgroundColor: "#F5F5F5",
+        navigationBarTitleText: "首页",
+        navigationBarTextStyle: "black"
       }
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(_App, [{
-    key: 'componentDidMount',
+    key: "componentDidMount",
     value: function componentDidMount() {}
   }, {
-    key: '_createData',
+    key: "_createData",
     value: function _createData() {}
   }]);
 
@@ -591,48 +593,14 @@ exports.default = _App;
 
 App(__webpack_require__(/*! @tarojs/taro-weapp */ "./node_modules/@tarojs/taro-weapp/index.js").default.createApp(_App));
 _taroWeapp2.default.initPxTransform({
-  "designWidth": 750,
+  "designWidth": 375,
   "deviceRatio": {
+    "375": 0.5,
     "640": 1.17,
     "750": 1,
     "828": 0.905
   }
 });
-
-/***/ }),
-
-/***/ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/module.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/module.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function (module) {
-  if (!module.webpackPolyfill) {
-    module.deprecate = function () {};
-    module.paths = [];
-    // module.parent = undefined by default
-    if (!module.children) module.children = [];
-    Object.defineProperty(module, "loaded", {
-      enumerable: true,
-      get: function get() {
-        return module.l;
-      }
-    });
-    Object.defineProperty(module, "id", {
-      enumerable: true,
-      get: function get() {
-        return module.i;
-      }
-    });
-    module.webpackPolyfill = 1;
-  }
-  return module;
-};
 
 /***/ }),
 
@@ -1365,7 +1333,7 @@ exports.useSelector = useSelector;
 exports.useStore = useStore;
 exports.ReduxContext = ReduxContext;
 //# sourceMappingURL=index.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -1435,7 +1403,7 @@ var _isPlainObject = __webpack_require__(/*! is-plain-object */ "./node_modules/
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
-var _warning = __webpack_require__(/*! warning */ "./node_modules/warning/warning.js");
+var _warning = __webpack_require__(/*! warning */ "./node_modules/warning/browser.js");
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -2700,7 +2668,7 @@ if (typeof window !== "undefined") {
 }
 
 module.exports = win;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -7237,7 +7205,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 function () {
   return this;
 }() || {Function: Function,Boolean: Boolean,Object: Object,Number: Number,Array: Array,Date: Date,String: String,Symbol: Symbol,Error: Error,TypeError: TypeError,Map: Map,Set: Set,WeakMap: WeakMap,WeakSet: WeakSet,ArrayBuffer: ArrayBuffer,Math: Math,Promise: Promise,RegExp: RegExp,DataView: DataView,isFinite: isFinite,parseInt: parseInt,parseFloat: parseFloat,Float32Array: Float32Array,Float64Array: Float64Array,Int8Array: Int8Array,Int16Array: Int16Array,Int32Array: Int32Array,Uint8Array: Uint8Array,Uint16Array: Uint16Array,Uint32Array: Uint32Array,Uint8ClampedArray: Uint8ClampedArray,setTimeout: setTimeout,clearTimeout: clearTimeout,setInterval: setInterval,clearInterval: clearInterval});
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../@tarojs/mini-runner/node_modules/webpack/buildin/module.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -7433,7 +7401,7 @@ function () {
   attachTo.setImmediate = setImmediate;
   attachTo.clearImmediate = clearImmediate;
 })(typeof self === "undefined" ? typeof global === "undefined" ? undefined : global : self);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../process/browser.js */ "./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
@@ -7472,7 +7440,7 @@ if (typeof self !== 'undefined') {
 
 var result = (0, _ponyfill2.default)(root);
 exports.default = result;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../@tarojs/mini-runner/node_modules/webpack/buildin/module.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
@@ -7575,23 +7543,25 @@ __webpack_require__(/*! setimmediate */ "./node_modules/setimmediate/setImmediat
 // `setimmediate` library.
 exports.setImmediate = typeof self !== "undefined" && self.setImmediate || typeof global !== "undefined" && global.setImmediate || undefined && undefined.setImmediate;
 exports.clearImmediate = typeof self !== "undefined" && self.clearImmediate || typeof global !== "undefined" && global.clearImmediate || undefined && undefined.clearImmediate;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/warning/warning.js":
+/***/ "./node_modules/warning/browser.js":
 /*!*****************************************!*\
-  !*** ./node_modules/warning/warning.js ***!
+  !*** ./node_modules/warning/browser.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright 2014-2015, Facebook, Inc.
+ * All rights reserved.
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
  */
 
 
@@ -7603,32 +7573,9 @@ exports.clearImmediate = typeof self !== "undefined" && self.clearImmediate || t
  * same logic and follow the same code paths.
  */
 
-var __DEV__ = true;
-
 var warning = function warning() {};
 
 {
-  var printWarning = function printWarning(format, args) {
-    var len = arguments.length;
-    args = new Array(len > 2 ? len - 2 : 0);
-    for (var key = 2; key < len; key++) {
-      args[key - 2] = arguments[key];
-    }
-    var argIndex = 0;
-    var message = 'Warning: ' + format.replace(/%s/g, function () {
-      return args[argIndex++];
-    });
-    if (typeof console !== 'undefined') {
-      console.error(message);
-    }
-    try {
-      // --- Welcome to debugging React ---
-      // This error was thrown as a convenience so that you can use this stack
-      // to find the callsite that caused this warning to fire.
-      throw new Error(message);
-    } catch (x) {}
-  };
-
   warning = function warning(condition, format, args) {
     var len = arguments.length;
     args = new Array(len > 2 ? len - 2 : 0);
@@ -7638,13 +7585,64 @@ var warning = function warning() {};
     if (format === undefined) {
       throw new Error("`warning(condition, format, ...args)` requires a warning message argument");
     }
+
+    if (format.length < 10 || /^[s\W]*$/.test(format)) {
+      throw new Error("The warning format should be able to uniquely identify this warning. Please, use a more descriptive format than: " + format);
+    }
+
     if (!condition) {
-      printWarning.apply(null, [format].concat(args));
+      var argIndex = 0;
+      var message = 'Warning: ' + format.replace(/%s/g, function () {
+        return args[argIndex++];
+      });
+      if (typeof console !== 'undefined') {
+        console.error(message);
+      }
+      try {
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+      } catch (x) {}
     }
   };
 }
 
 module.exports = warning;
+
+/***/ }),
+
+/***/ "./node_modules/webpack/buildin/module.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/module.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (module) {
+  if (!module.webpackPolyfill) {
+    module.deprecate = function () {};
+    module.paths = [];
+    // module.parent = undefined by default
+    if (!module.children) module.children = [];
+    Object.defineProperty(module, "loaded", {
+      enumerable: true,
+      get: function get() {
+        return module.l;
+      }
+    });
+    Object.defineProperty(module, "id", {
+      enumerable: true,
+      get: function get() {
+        return module.i;
+      }
+    });
+    module.webpackPolyfill = 1;
+  }
+  return module;
+};
 
 /***/ }),
 
@@ -7677,6 +7675,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_app_js_taro_type_script_parse_ENTRY___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_app_js_taro_type_script_parse_ENTRY___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_app_js_taro_type_script_parse_ENTRY___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_app_js_taro_type_script_parse_ENTRY___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_tarojs_mini_runner_dist_loaders_wxTransformerLoader_js_ref_6_0_app_js_taro_type_script_parse_ENTRY___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./src/app.scss":
+/*!**********************!*\
+  !*** ./src/app.scss ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -7813,7 +7822,7 @@ exports.default = {
     return app.dispatch;
   }
 };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js */ "./node_modules/@tarojs/mini-runner/node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ })
 

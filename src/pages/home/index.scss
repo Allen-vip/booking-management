@@ -1,0 +1,238 @@
+.home {
+  // background: #f2f2f2;
+}
+.home_header {
+  background: url("../../images/dingbubeijing.png") no-repeat;
+  background-size: 100% 100%;
+  // height: 167px;
+  overflow: hidden;
+}
+.home_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 0 0 22px;
+}
+.home_info .home_info_name {
+  font-size: 21px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(56, 56, 56, 1);
+}
+.home_info_other {
+  background: rgba(228, 228, 228, 0.8);
+  border-radius: 100px 0px 0px 100px;
+  padding: 6px 7px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  align-items: center;
+  color: rgba(68, 68, 68, 1);
+}
+.home_info_other > view {
+  display: flex;
+  align-items: center;
+}
+.home_info_other image {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+.home_info_other image:nth-child(2) {
+  position: relative;
+  left: -4px;
+}
+.home_info_other image:nth-child(3) {
+  position: relative;
+  left: -8px;
+}
+.home_nav {
+  display: flex;
+  margin-top: 16px;
+}
+.home_nav > view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home_nav > view image {
+  width: 38px;
+  height: 38px;
+}
+.home_nav > view text {
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+.home_body {
+  position: relative;
+  top: -16px;
+}
+.home_body_top {
+  height: 16px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px -6px 6px 0px rgba(136, 170, 169, 0.08);
+  border-radius: 15px 15px 0px 0px;
+  opacity: 0.81;
+}
+.home_body_search {
+  display: flex;
+  padding: 0 15px 15px;
+  justify-content: space-between;
+}
+.home_body_search_left {
+  display: flex;
+}
+.home_body_search_right > view,
+.home_body_search_left > view {
+  display: flex;
+  background: rgba(247, 247, 247, 1);
+  border-radius: 15px;
+  align-items: center;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  padding: 5px 9px;
+  margin-right: 9px;
+}
+.home_body_down_icon {
+  height: 9px;
+  width: 9px;
+  background: url("../../images/down.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 3px;
+}
+.shaixuan_icon {
+  height: 13px;
+  width: 13px;
+  background: url("../../images/shaixuan.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 6px;
+}
+.home_section {
+  margin: 0 15px;
+  padding: 15px 0;
+  border-top: 1px solid #efefef;
+}
+.home_list_header {
+  display: flex;
+}
+.home_list_header > image {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
+.home_list_header > view {
+  flex: 1;
+  margin-left: 12px;
+}
+.home_list_header > view > .home_list_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.home_list_info_left {
+  display: flex;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+.home_list_info_right {
+  display: flex;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  align-items: center;
+}
+.home_list_price {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.home_list_price > view {
+  display: flex;
+  color: #f5a623;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.home_list_price .home_list_kl {
+  color: #21c5c2;
+}
+.home_list_price .home_list_kl > view:nth-child(1) {
+  margin-right: 9px;
+  margin-left: 3px;
+}
+.home_list_price .home_list_score > view:nth-child(2) {
+  margin-left: 3px;
+  margin-right: 9px;
+}
+.home_list_star {
+  height: 14px;
+  width: 13px;
+  background: url("../../images/star.png") no-repeat;
+  background-size: 100% 100%;
+}
+.home_list_checked {
+  height: 12px;
+  width: 12px;
+  background: url("../../images/checked.png") no-repeat;
+  background-size: 100% 100%;
+}
+.home_list_btn {
+  width: 64px;
+  display: flex;
+  margin-left: 11px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background: rgba(246, 255, 249, 1);
+  border-radius: 6px;
+  border: 1px solid rgba(38, 211, 208, 1);
+  color: #26d3d0;
+  font-size: 13px;
+  height: 29px;
+}
+.home_list_checked {
+  margin-left: 5px;
+}
+.home_list_skill {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.home_list_skill > view:nth-child(1) {
+  flex: 1;
+  color: #000;
+  font-size: 13px;
+}
+.home_list_skill text {
+  color: #a1a1a1;
+}
+.home_scroll {
+  // height: 300px;
+  // overflow: auto;
+}
+.home_list_info_right_loc {
+  height: 14px;
+  width: 10px;
+  background: url("../../images/weizhi@3x.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0 6px 0 9px;
+}
+.nav_icon {
+  margin: 15px 0 17px 0;
+  height: 10px;
+  width: 20px;
+}
+.nav_selected_0 {
+  background: url("../../images/Triangle@3x.png") no-repeat;
+  background-size: 100% 100%;
+}
